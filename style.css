@@ -1,0 +1,81 @@
+body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 100dvh;
+      margin: 0;
+      background-color: #F7374F;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .allBtn{
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      justify-content: center;
+      background-color: #0ff;
+      padding: 15px 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      margin-bottom: 20px;
+    }
+
+    button{
+      padding: 10px 15px;
+      background-color: #ffe3bb;
+      border: none;
+      border-radius: 8px;
+      font-weight: bold;
+      font-size: 14px;
+      cursor: pointer;
+    }
+
+    button.active{
+      background-color: #222;
+      color: white;
+      border: 2px solid #0ff;
+    }
+
+    .color-picker{
+      padding: 8px;
+      background-color: #FFA673;
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .color-picker input[type="color"] {
+      border: none;
+      padding: 0;
+      width: 50px;
+      height: 30px;
+      cursor: pointer;
+    }
+
+    .grid-container {
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 50px;
+      width: 500px;
+      height: 500px;
+      border: 3px solid #333;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+
+    
+
+    .box {
+      margin: 0;
+      border: 1px solid black;
+      opacity: 0;
+      box-sizing: border-box;
+      background-color: black;
+    }
+
+   
